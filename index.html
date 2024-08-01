@@ -1,0 +1,762 @@
+
+ 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SES POWER</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+     crossorigin="anonymous">
+     
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <style>
+  
+
+  #particles-js{
+      position:absolute;top:0;width:97%;height:90vh;z-index: 1;margin-top: 10vh;
+  }
+  
+  
+   .main{
+      display: flex;flex-direction: column;width: 100%;height:100vh;
+      background-image: url('usb/bg2.png');
+      background-repeat:no-repeat;background-position:center;background-size: cover;
+  }
+  .submain-1{
+      display:flex;flex-direction:row;align-items: flex-end;
+      height:15vh;justify-content: space-around;
+  }
+  .logo{
+      width:300px;height: fit-content;
+  }
+  .space{
+      width:5%;height:5vh;
+  }
+  .navigation {
+      
+      display: flex;justify-content: center;align-items:center;
+      padding-left:50px;padding-right: 30px;margin-bottom:20px;
+     }
+  .navigation p{
+      display: inline;
+      word-spacing: 50px;
+  }
+  .navigation p a{
+  color: white;text-decoration:none;display: inline;
+  font-size:18px;font-weight: bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .submain-2{
+     display: flex;flex-direction:row;width:100%;
+     height: 70vh;
+  }
+  .sub2text{
+      
+      width:50%;
+      color:white;
+  }
+  .sub2text h2{
+      color:white;font-size:4vw;margin-top: 45%;margin-left:15%;
+  }
+  .spanText{
+      color:rgb(66, 240, 66);
+  }
+  .space2{
+      width:7%;
+  }
+  .sub2img1{
+      display: flex;flex-direction: column;justify-content:center;align-items:end;
+      width:23%;
+  }
+  .sub2img2{
+      display: flex;flex-direction: column;justify-content:center;align-items:center;
+      width:20%;
+      padding-bottom:15px;padding-right:10px;
+  }
+  .img1{
+      width:99%;
+  }
+  .img2{
+      width: 99%;
+  }
+  .h661{color:white;margin-top: 1%;margin-right:15%;font-size: 20px;}
+  h6{
+      color:white;margin-top: 6%;font-size: 20px;
+  }
+  
+  
+  
+  
+  .sec2{
+    height:fit-content;display: flex;justify-content: center;
+    background-image: url('usb/a2.jpg');
+    background-position: center;background-size: cover;
+  }
+  .sec3{
+    height: 100vh;display: flex;justify-content: center;
+    background-image: url('usb/D2.jpg');
+    
+      background-position: center;background-size: cover;
+  }
+  .sec4{
+    height: 100vh;display: flex;justify-content: center;
+    /* background-image: url('/usb/D2.jpg');
+      background-position: center;background-size: cover; */
+  }
+  
+  .ohoo{
+    text-align: center;margin-top:30px;
+    color:black;font-weight: bold;
+    font-size: 3vw;font-weight: bold;
+  }
+  .ohoo2{
+    text-align: center;margin-top: 30px;color:black;font-weight: bold;
+  }
+  .swiper {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    }
+  
+    .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    /* width: 500px;
+    height: 700px; */
+    width: 600px;
+    height: 800px;
+    }
+    .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    }
+    .swiper-slide p{
+    background-color:black;color: white;
+    font-size: 2em;text-align: center;
+    }
+  
+  .bbg{background-color: #1961a4;}
+  .bat5{
+      
+      color: white;background-image: url(usb/D2.jpg);
+      background-color: rgb(0, 0,0,.6);
+      background-blend-mode:overlay;
+  }
+  
+  .foot1{
+      line-height: 30px;display: flex;flex-direction: column;
+      /* width:35%; */
+     
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 2vw;color: white;font-size: 15px;
+      /* margin-left: 120px;margin-right: 80px; */text-align:justify;
+      margin-top: 20px;
+  }
+  .foot{
+      display: flex;flex-direction: column;
+      /* width:30%; */
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-top: 20px;text-align: left;font-weight: bold;font-size: 15px;
+  }
+  .hd{font-size:20px;}
+  .top-bar1{
+  color: white;text-align: left;
+  margin-left: 100px;
+  }
+  .top-bar{
+    text-align: right;margin-right: 280px;
+  }
+  .top-bar a{
+    text-decoration: none;color: white;font-size: 25px;padding-right: 35px;
+  }
+  .up{margin-top: 20px;}
+  .up a{color: white;font-size: 30px;}
+  .t1{
+      color: white;font-size: 30px;margin-top: 80px;text-shadow:6px 6px rgb(111, 111, 224) ;
+      font-size:6vw;text-align: left;font-weight:bold;margin-left: 20px;
+     
+      /* #f9dd7e */
+  }
+  .t2{
+      color: white;font-size: 30px;margin-top: 50px;text-shadow:6px 6px rgb(133, 201, 189) ;
+      font-size:6vw;text-align: left;font-weight:bold;margin-left: 20px;
+     
+      /* #f9dd7e */
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&display=swap');
+  
+  *{
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+  }
+  
+  :root{
+      --bodyBg:#fff;
+      --formBg:#eff2f5;
+      --textColor:#fff;
+      --primaryColor:#2f3740;
+      --paraColor:#1961a4;
+      /* --primaryColor:#056f99; */
+      --paraColor:#8fc1f0;
+  
+  }
+  .down{margin-top: 80vh;}
+  body{
+      font-family: 'Roboto Serif', serif;
+      color: var(--textColor);
+      background-color: rgb(24, 24, 61);
+     
+  }
+  .mithu{
+      background-image: url('usb/abt2.jpg');
+      background-position: center;background-size: cover;
+  }
+  section{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 90%;
+      max-width: 550px;
+      margin: auto; 
+      margin-top: 2%;
+      
+  }
+  
+  
+  
+  .heading,.sub-heading{
+      margin-bottom: .1em;
+      font-weight: bold;
+  }
+  
+  .heading{
+      font-size:3vw;color:white;
+  }
+  
+  .sub-heading{
+      text-align: left;color: white;
+  }
+  
+  .contactForm{
+      display: grid;
+      gap: 3em;color: white;
+  }
+  
+  form{
+      width: 100%;
+      margin-top: 3em;
+  }
+  
+  
+  
+  .para2{
+      text-align: left;
+  }
+  
+  .input{
+      width: 95%;
+      max-width: 700px;
+      border: none;
+      font-size: .9rem;
+      padding: 1em;
+      outline: none;
+      background-color: var(--formBg);
+      color: var(--paraColor);
+      border-radius: 10px;
+      border: 1px solid rgb(53, 53, 53);
+      margin-bottom: 1em;
+  
+  }
+  
+  .input:focus{
+      border: 1px solid var(--primaryColor);
+  }
+  
+  .input::placeholder{
+      text-transform: capitalize;
+  }
+  
+  .submit{
+      background-color: var(--primaryColor);
+      border: none;
+      color: var(--textColor);
+      font-weight: bold;
+      cursor: pointer;
+      width: 100%;
+  }
+  
+  .map-container{
+      position: relative;
+      width: 100%;
+      height: 500px;
+  }
+  
+  .mapBg{
+      position: absolute;
+      background-color: var(--primaryColor);
+      top: 0;
+      right: 0;
+      width: 200px;
+      height: 90%;
+      border-radius: 20px;
+  }
+  
+  .map{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 90%;
+      height: 90%;
+  }
+  
+  .map iframe{
+      width: 100%;
+      height: 100%;
+  }
+  
+  .contactMethod{
+      display: flex;
+      flex-direction: column;
+      margin-top: 2em;
+      text-align: left;
+  }
+  
+  .method{
+      display: flex;
+      align-items: center;
+  }
+  
+  .contactIcon{
+      font-size: 2rem;
+      color: var(--primaryColor);
+      width: 70px;
+  }
+  
+  
+  
+  
+  
+  
+  @media screen and (min-width:800px) {
+      section{
+          max-width: 1100px;
+      }
+      .contactForm{
+          grid-template-columns: 1fr 1fr;
+      }   
+  
+      .contactMethod{
+          flex-direction: row;
+          justify-content: space-between;
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width:576px) {
+      /* before small */
+      #particles-js{
+        margin-top: 30vh;
+      }
+      .main{
+        height:fit-content;
+      }
+     .submain-1{
+      height:fit-content;flex-direction: column;
+      justify-content:center;align-items: center;
+     }
+     .sub2img1{
+      
+      width:50%;
+  }
+  .sub2img2{
+     
+      width:50%;
+  }
+     .submain-2{
+      height:fit-content;flex-direction: column;justify-content: center;align-items: center;
+     }
+     .sub2text h2{
+      color:white;font-size:4vw;margin-top:10%;margin-bottom:20%;
+  }
+  
+  .navigation{
+    margin-bottom:0px;
+  }
+     .navigation p{
+      display: inline;
+      word-spacing: 10px;
+      }
+      .navigation p a{
+          color: white;text-decoration:none;display: inline;
+          font-size:15px;
+          
+          }
+         
+          .submain-2{
+              flex-direction:column;
+          }
+          .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    /* width: 500px;
+    height: 700px; */
+    width: 350px;
+    height: 600px;
+    }
+  }
+  
+  @media screen and (min-width:576px) {
+     /* after small */
+   
+           .navigation {
+              padding-right:0px;margin-bottom:5px;
+              padding-left:0px;
+             }
+           .navigation p{
+              
+              word-spacing: 10px;
+              }
+           .navigation p a{font-size:15px;}
+
+   }
+   @media screen and (min-width:768px) {
+      /* medium screen */
+      .navigation {
+          padding-right:0px;margin-bottom:5px;
+         }
+       .navigation p{
+          
+          word-spacing: 20px;
+          }
+       .navigation p a{font-size:17px;}
+       /* .space{background-color:orange;} */
+      
+  }
+   @media screen and (min-width:992px) {
+     /* large screen */
+  
+     .navigation {
+      padding-right:0px;
+     }
+   .navigation p{
+      
+      word-spacing: 10px;
+      }
+   .navigation p a{font-size:20px;}
+   /* .space{background-color:yellow;} */
+  }
+  @media screen and (min-width:1200px) {
+     /* xtra large */
+     
+      .navigation p a{
+          color: white;text-decoration:none;display: inline;
+          font-size:17px;
+          
+          }
+          /* .space{background-color:pink;} */
+  }
+  @media screen and (min-width:1400px) {
+      /* xxtra large */
+      .space{
+          width: 30%;
+          
+       }
+       .navigation{margin-bottom:20px}
+       .navigation p{
+          
+          word-spacing: 50px;
+          }
+          .navigation p a{
+              color: white;text-decoration:none;display: inline;
+              font-size:20px;
+              
+              }
+   }
+  </style>
+
+
+    </head>
+
+<body>
+  
+   <div class="container-fluid">
+    
+    
+    <div id="particles-js"></div>     
+
+<div class="main" id="hom">
+  <div class="submain-1">
+    <div class="logo">
+      <img src="usb/ses.png" class="img-fluid" alt="">
+    </div>
+    <div class="space">
+      
+    </div>
+    <div class="navigation">
+      <p><a href="index.html">Home</a>
+      <a href="about.html">AboutUs</a>
+      <a href="index.html#text">Products</a>
+     <a href="delar card/delar/index.html">Dealers</a>
+      <a href="index.html#footer">ContactUs</a></p>
+    </div>  
+  </div>
+  <div class="submain-2">
+
+    <div class="sub2text">
+      <h2>Providing <span class="spanText">ECO</span> Energy<br>to Fuel the World</h2>
+    </div>
+    <div class="space2">
+      
+    </div>
+    <div class="sub2img1">
+      <img src="usb/invert.png" class="img-fluid  img1" alt="">
+      <h6 class="h661">Hybrid Inverter</h6>
+    </div>
+    <div class="sub2img2">
+      <img src="images/iii.png" class="img-fluid img2" alt="">
+      <h6>PowerWall Battery</h6>
+    </div>
+
+  </div>
+  
+
+</div>
+
+
+
+<div id="text" >
+ <div class="row sec2">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <h1 class="ohoo lax lax_preset_scaleInOut:142.75:0.6">Our Feature Products</h1>
+       
+       
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+      
+        <div class="swiper-slide"><a href="popup/index.html">
+        <img src="images/p1.png"></a></div>
+        <div class="swiper-slide"><a href="high/index.html">
+        <img src="images/p2.png"></a></div>
+        <div class="swiper-slide"><a href="ss/index.html">
+        <img src="images/p3.png"></a></div>
+        <div class="swiper-slide"><a href="THREE/index.html">
+        <img src="images/p4.png"></a></div>
+        <div class="swiper-slide"><a href="Electric_Bikes/index.html">
+        <img src="images/p5.png"></a></div>
+        <div class="swiper-slide"><a href="EV/index.html">
+        <img src="images/p6.png"></a></div>
+
+       
+      </div>
+      
+      </div>
+      
+    </div>
+     
+  </div>
+  </div>
+ 
+
+
+
+<div class="row mithu">
+  <div class="col-lg-12">
+    <section class="contact-form">
+      <!-- <h4 class="sectionHeader">contact us</h4> -->
+      <h1 class="heading lax lax_preset_scaleInOut:142.75:0.6">Get In Touch!</h1>
+       <!-- <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos
+          inventore omnis aliquid rerum alias molestias.</p>  -->
+      
+      <div class="contactForm">
+          <form action="#">
+           <h1 class="sub-heading">Need Support !</h1>
+           <p class="para para2">Contact us for a quote , help to join the them.</p>
+           <input type="text" class="input" placeholder="your name">
+           <input type="text" class="input" placeholder="your email">
+           <input type="text" class="input" placeholder="your Subject">
+           <textarea class="input" cols="30" rows="5" placeholder="Your message..."></textarea>
+           <input type="submit" class="input submit" value="Send Message">
+          </form>
+  
+          <div class="map-container">
+              <div class="mapBg"></div>
+              <div class="map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.4973014999177!2d74.27712177469728!3d31.537964046274208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191ba087a80a2d%3A0x929cf83c748c02f0!2sSES%20Power!5e0!3m2!1sen!2s!4v1712555812202!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+      </div>
+  
+     </section>
+  
+  </div>
+</div>
+<!-- 3rd div -->
+<div class="row  bat5"id="footer">
+ 
+  <div class="col-lg-1 col-md-1">
+
+  </div>
+         <div class="col-lg-4 col-md-5 col-sm-12">
+          <div class=" foot1">
+            <u> <p class="hd">LOCATION:</p></u>
+             
+             <p>Main Showroom: 30-B Zaitoon Plaza Hall Road, Lahore</p>
+            <p>SESPOWER HO/Warehouse Saggiyan Bypass Lahore</p>
+             
+         </div>
+         </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="foot">
+              <u><p class="hd">CONTACT US:</p></u>
+              
+              <p>Email: corporate@magnet.pk</p>
+              <p>Mobile: 0321 1113462/63/64/66 </p>
+             
+          </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <div class="foot">
+              <u><p class="hd">Social Networks:</p></u>
+              <p>www.magnet.pk</p>
+              <p>www.narada.com.pk</p>
+                
+            </div>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-1 up">
+            <a href="index.html#hom"><ion-icon name="cloud-upload"></ion-icon></a>
+          </div> 
+      
+  
+</div>
+      
+ 
+
+  
+  
+
+
+<div class="row bg-dark">
+  <div class="col-lg-6 col-md-6 col-sm-12">
+  <div class="top-bar1">
+    <h5>@copyrights2024 sespower.com.pk</h5>
+  </div>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12">
+  <div class="top-bar">
+    
+      <a href="https://www.facebook.com/profile.php?id=100066634667891"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="https://www.instagram.com/sespower1/"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="https://www.linkedin.com/company/magnet-communications-ses-power-narada-power/?viewAsMember=true"><ion-icon name="logo-linkedin"></ion-icon></a>
+  </ul> 
+  
+  </div>  
+  </div>
+</div>
+
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+        rotate: 40,
+        stretch: 0,
+        depth: 500,
+        modifier: 1,
+        slideShadows: true,
+        },
+        loop:true,
+        autoplay: {
+          delay: 640,
+          disableOnInteraction: false,
+        },
+      });
+      </script>
+
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+    <!-- JS -->
+<script>
+  window.onload = function () {
+    lax.init()
+
+    // Add a driver that we use to control our animations
+    lax.addDriver('scrollY', function () {
+      return window.scrollY
+    })
+
+    // Add animation bindings to elements
+    lax.addElements('.selector', {
+      scrollY: {
+        translateX: [
+          ["elInY", "elCenterY", "elOutY"],
+          [0, 'screenWidth/2', 'screenWidth'],
+        ]
+      }
+    })
+  }
+</script>
+
+
+</body>
+</html>
+
+
+<!-- <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" 
+         delay="3000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/bat/invert.png" class="img-fluid" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="Group 1.png" class="img-fluid slidr2" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="Group 2.png" class="img-fluid slidr" alt="">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon ohicon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </div> -->
+
